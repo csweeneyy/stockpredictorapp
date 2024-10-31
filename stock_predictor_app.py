@@ -48,12 +48,11 @@ def plot_raw_data():
 plot_raw_data()
 
 
-#forecasting
+
 def prepare_prophet_data(data):
-    # Make a copy and convert date column to timezone-naive
     df = data[['Date', 'Close']].copy()
-    df['Date'] = df['Date'].dt.tz_localize(None)  # Remove timezone info
-    df.columns = ['ds', 'y']  # Rename columns for Prophet
+    df['Date'] = df['Date'].dt.tz_localize(None)  
+    df.columns = ['ds', 'y'] 
     return df
 
 df_prophet = prepare_prophet_data(data)
