@@ -22,13 +22,9 @@ To run the app locally:
                                 streamlit run stock_predictor_app.py
 
 Technologies Used
-
-Streamlit: For the web interface 
-
-yfinance: To fetch historical stock data
-
-Prophet: Machine learning model for time-series forecasting
-
-Plotly: For interactive data visualization
+- Streamlit: For the web interface 
+- yfinance: To fetch historical stock data
+- Prophet: Machine learning model for time-series forecasting
+- Plotly: For interactive data visualization
 
 This app offers a straightforward approach to stock prediction, useful for both investors and those interested in data science applications.
