@@ -22,6 +22,7 @@ To run the app locally:
                                 streamlit run stock_predictor_app.py
 
 Technologies Used
+
 Streamlit: For the web interface
 yfinance: To fetch historical stock data
 Prophet: Machine learning model for time-series forecasting
