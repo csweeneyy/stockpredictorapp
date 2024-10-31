@@ -23,7 +23,7 @@ To run the app locally:
 
 Technologies Used
 
-Streamlit: For the web interface
+Streamlit: For the web interface 
 yfinance: To fetch historical stock data
 Prophet: Machine learning model for time-series forecasting
 Plotly: For interactive data visualization
