@@ -20,6 +20,7 @@ To run the app locally:
                                 pip install streamlit yfinance prophet plotly
 3. Run the application:
                                 streamlit run stock_predictor_app.py
+
 Technologies Used
 Streamlit: For the web interface
 yfinance: To fetch historical stock data
