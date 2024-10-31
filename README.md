@@ -14,7 +14,6 @@ How to Use
 - View Data & Forecast: The app displays recent stock data and future predictions, with interactive plotting.
   
 Installation
-To run the app locally:
 1. Clone this repository.
 2. Install the dependencies:
                                 pip install streamlit yfinance prophet plotly
